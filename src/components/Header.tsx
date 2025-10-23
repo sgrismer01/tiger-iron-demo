@@ -6,14 +6,18 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [user, setUser] = useState(null);
 
-  supabase.auth.onAuthStateChange((event, session) => {
-    (async () => {
-      setUser(session?.user ?? null);
-    })();
-  });
+  if (supabase) {
+    supabase.auth.onAuthStateChange((event, session) => {
+      (async () => {
+        setUser(session?.user ?? null);
+      })();
+    });
+  }
 
   const handleLogout = async () => {
-    await supabase.auth.signOut();
+    if (supabase) {
+      await supabase.auth.signOut();
+    }
   };
 
   return (
