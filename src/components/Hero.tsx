@@ -47,7 +47,7 @@ export default function Hero() {
               href="/signup"
               className="bg-[#FF6A00] text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-[#e55f00] transition-all hover:scale-105 text-center"
             >
-              Start Free Trial
+              Sign Up Now
             </a>
             <a
               href="/app"
