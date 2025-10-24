@@ -14,7 +14,7 @@ export default function CallToAction() {
             href="/signup"
             className="bg-black text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-gray-900 transition-all hover:scale-105"
           >
-            Start Free Trial
+            Signup Now
           </a>
           <a
             href="/pricing"
