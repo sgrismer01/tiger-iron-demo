@@ -85,7 +85,7 @@ export default function Hero() {
           <p className="text-sm text-gray-300 mt-8 space-x-3">
             <span>No long-term contracts</span>
             <span className="text-[#FF6A00]">•</span>
-            <span>Community classes</span>
+            <span>Committed community</span>
             <span className="text-[#FF6A00]">•</span>
             <span>Strength & cardio zones</span>
           </p>
